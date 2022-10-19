@@ -1,15 +1,14 @@
-# Sketch
+# Pygame Lessons
 
-Sketch is a Python module you can use to draw images with code.
-
-![sketch examples](../pygame/.data/sketch_examples.jpg)
+These worksheets teach the basics of Python and Pygame.
+By the end of the lessons you should have enough knowledge to be able to make your own games using Pygame.
 
 
 ---
 
 ## Requirements
 
-You will need to install Python and Pygame before using the sketch module.
+You will need to install Python and Pygame before following the worksheets.
 
 ### Install Python
 1. Click on this link to go to the Python downloads page: https://www.python.org/downloads/
@@ -21,18 +20,19 @@ You will need to install Python and Pygame before using the sketch module.
 5. Copy and paste this command into the terminal: `python3 -m pip install -U pygame --user` and then press the `return` key on your keyboard.
 6. If all has gone well, you should be able to copy and paste the following command into your terminal: `python3 -m pygame.examples.aliens`. After pressing the `return` key again, a small window should appear, allowing you to play a game of `Aliens`.
 
-### Install the Sketch module
+### Download the Pygame Lessons
 7. Finally, open the following page in your web browser: https://github.com/PaoloMura/ks3-project
 8. Click on the green button marked `code` and then select `Download ZIP` to download the ZIP file.
 9. On Mac, double-click the file. On Windows, right click the file, select `extract all` and then follow the instructions.
-10. You should be able to find the sketch folder within this folder.
+10. You should be able to find the pygame folder within this folder.
 
 
 ---
 
-## Getting Started
+## Following the Worksheets
 
-Read the `cheat-sheet.md` file - it tells you how to use the `sketch` module. 
+Each lesson has its own folder. It contains the following:
 
-Either follow the lessons in the `worksheets` folder, or just freestyle!
-
+* a workbook to follow
+* `aliens.py` (the starter code for you to edit)
+* `data/` (a folder that contains the assets for your game, such as images and sounds)
