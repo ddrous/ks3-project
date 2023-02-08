@@ -14,3 +14,9 @@ By the end of the worksheets, students should have enough knowledge to create th
 Unlike Sketch, each worksheet teaches some new concepts while asking the student to modify some given starter code.
 
 The **RPS** resource contains a brief overview for coding a rock-paper-scissors game in Python.
+
+## Feedback Form
+
+Here is a feedback form for the Code Makers workshops:
+
+https://docs.google.com/forms/d/e/1FAIpQLSeDuIxS550KYSGBXPeUCh4yebqOL24Kovf9jCt2FBxBuZ-HEg/viewform?usp=sf_link
