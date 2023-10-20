@@ -22,7 +22,7 @@ You will need to install Python and Pygame before using the sketch module.
 6. If all has gone well, you should be able to copy and paste the following command into your terminal: `python3 -m pygame.examples.aliens`. After pressing the `return` key again, a small window should appear, allowing you to play a game of `Aliens`.
 
 ### Install the Sketch module
-7. Finally, open the following page in your web browser: https://github.com/PaoloMura/ks3-project
+7. Finally, open the following page in your web browser: https://github.com/ddrous/ks3-project
 8. Click on the green button marked `code` and then select `Download ZIP` to download the ZIP file.
 9. On Mac, double-click the file. On Windows, right click the file, select `extract all` and then follow the instructions.
 10. You should be able to find the sketch folder within this folder.
@@ -51,7 +51,7 @@ Either follow the lessons in the `worksheets` folder, or just freestyle!
 1. Install Python on the students' lab machines (version 3.x). https://www.python.org/downloads/
 2. This should include the IDLE IDE if the machines don't already have an editor like VSCode.
 3. Install Pygame for the chosen version of Python. `python3 -m pip install -U pygame --user`
-4. Clone this repository (https://github.com/PaoloMura/ks3-project) into a shared folder that the students have access to.
+4. Clone this repository (https://github.com/ddrous/ks3-project) into a shared folder that the students have access to.
 
 To test that setup was successful, please check that students are able to:
 1. Copy the ks3-project folder into their own personal directory.
