@@ -186,7 +186,7 @@ Within the FOR loop, do the following:
     <summary>Answer</summary>
 
 ```python
-from sketch.sketch import Window
+from sketch import Window
 win = Window(400, 400)
 win.rectangle([100, 250, 100], [0, 0], 400, 400)
 colours = [[255, 255, 255], [0, 0, 0], [50, 50, 200], [200, 50, 50], [240, 240, 50]]

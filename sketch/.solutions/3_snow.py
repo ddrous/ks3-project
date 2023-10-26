@@ -1,5 +1,5 @@
 import random
-from sketch.sketch import Window
+from sketch import Window
 
 
 def main():

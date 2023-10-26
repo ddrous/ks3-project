@@ -1,6 +1,6 @@
 import math
 
-from sketch.sketch import Animation
+from sketch import Animation
 
 
 def main():

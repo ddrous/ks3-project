@@ -1,4 +1,4 @@
-from sketch.sketch import Window
+from sketch import Window
 
 def main():
     win = Window(500, 500)

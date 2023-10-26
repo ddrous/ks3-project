@@ -3,7 +3,7 @@ Note that this solution isn't necessarily more efficient than the original targe
 It is more easily adapted to be scalable and teaches the use of arrays and iteration however.
 """
 
-from sketch.sketch import Window
+from sketch import Window
 
 
 def main():

@@ -1,4 +1,4 @@
-from sketch.sketch import Animation
+from sketch import Animation
 
 
 # Duration is measured in seconds.
