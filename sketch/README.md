@@ -41,7 +41,7 @@ Schools with network environments require special instructions since the ones ab
 
 1) Install the version of Python you require and reboot after
 
-2) Go to PyGame's PyPI to get the ".WHL" file. https://pypi.org/project/pygame/#files
+2) Go to PyGame's PyPI to get the ".WHL" file: https://pypi.org/project/pygame/#files
 (Make sure that you download the correct version file to match the version of Python you have)
 
 3) Once downloaded, move it to a network drive and then make a batch file of the lines below for example:
@@ -49,7 +49,7 @@ Schools with network environments require special instructions since the ones ab
 cd C:\Program Files\Python310\include
 pip install "T:\Pygame\pygame-2.1.2-cp310-cp310-win_amd64.whl" --force-reinstall
 ```
-First, specify the python directory and the includes folder as this is where it will pickup that PyGame is installed. Secondly, install the whl file. Now this should be complete and pygame should be installed. You can then run their test commands to make sure that it is working.
+First, specify the python directory and the includes folder as this is where it will pickup that PyGame is installed. Secondly, install the whl file. Now this should be complete and pygame should be installed. You can then run test commands to make sure that it is working.
 
 4) Run the code (a window should appear with the Japanese flag).
 
