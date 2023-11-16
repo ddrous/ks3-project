@@ -35,6 +35,25 @@ If you can't install the above locally, an alternative option is to use replit.c
 3. Press the blue "Use Template" button in the top right
 
 
+## Instructions for Network Environments
+
+Schools with network environments require special instructions since the ones above install PyGame to the local appdata, and often, students' appdata clears after every log out. So follow the steps below.
+
+1) Install the version of Python you require and reboot after
+
+2) Go to PyGame's PyPI to get the ".WHL" file. https://pypi.org/project/pygame/#files
+(Make sure that you download the correct version file to match the version of Python you have)
+
+3) Once downloaded, move it to a network drive and then make a batch file of the lines below for example:
+```bash
+cd C:\Program Files\Python310\include
+pip install "T:\Pygame\pygame-2.1.2-cp310-cp310-win_amd64.whl" --force-reinstall
+```
+First, specify the python directory and the includes folder as this is where it will pickup that PyGame is installed. Secondly, install the whl file. Now this should be complete and pygame should be installed. You can then run their test commands to make sure that it is working.
+
+4) Run the code (a window should appear with the Japanese flag).
+
+
 ---
 
 ## Getting Started
@@ -56,4 +75,3 @@ Either follow the lessons in the `worksheets` folder, or just freestyle!
 To test that setup was successful, please check that students are able to:
 1. Copy the ks3-project folder into their own personal directory.
 2. Open the example.py file with an IDE (e.g. IDLE).
-3. Run the code (a window should appear with the Japanese flag).
